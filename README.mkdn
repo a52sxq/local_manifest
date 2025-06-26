@@ -1,0 +1,6 @@
+Sync the manifest:
+
+```bash
+git clone https://github.com/a52sxq/local_manifest .repo/local_manifests
+```
+
