@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remote GitHub apontando direto para a org -->
+    <remote name="github"
+            fetch="https://github.com/a52sxq/" />
+
+    <!-- DEVICE TREES -->
+    <project name="device_samsung_a52sxq"
+             path="device/samsung/a52sxq"
+             remote="github"
+             revision="fifteen" />
+
+    <project name="device_samsung_sm7325_common"
+             path="device/samsung/sm7325-common"
+             remote="github"
+             revision="fifteen" />
+
+    <!-- KERNEL -->
+    <project name="android_kernel_samsung_sm7325"
+             path="kernel/samsung/sm7325"
+             remote="github"
+             revision="fifteen" />
+
+    <!-- VENDOR TREES -->
+    <project name="vendor_samsung_a52sxq"
+             path="vendor/samsung/a52sxq"
+             remote="github"
+             revision="fifteen" />
+
+    <project name="vendor_samsung_sm7325-common"
+             path="vendor/samsung/sm7325-common"
+             remote="github"
+             revision="fifteen" />
+
+    <!-- REMOVE REPO -->
+    <remove-project name="LineageOS/android_hardware_samsung_nfc" />
+
+    <!-- CUSTOM HARDWARE SAMSUNG -->
+    <project name="android_hardware_samsung"
+             path="hardware/samsung"
+             remote="github"
+             revision="fifteen" />
+
+    <!-- NFC -->
+    <project name="android_hardware_samsung_nfc"
+             path="hardware/samsung/nfc"
+             remote="github"
+             revision="lineage-22.2" />
+
+</manifest>
+
