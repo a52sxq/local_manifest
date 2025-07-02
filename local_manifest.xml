@@ -15,6 +15,7 @@
 
     <!-- CUSTOM HARDWARE SAMSUNG -->
     <project name="a52sxq/android_hardware_samsung" path="hardware/samsung" remote="github" revision="fifteen" />
+    <project name="a52sxq/hardware_samsung-extra_interfaces" path="hardware/samsung-ext/interfaces" remote="github" revision="fifteen" />
 
     <!-- KEYS -->
     <project name="LCyong-stuffs/keys" path="vendor/aosp/signing/keys" remote="github" revision="main" />
