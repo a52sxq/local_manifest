@@ -5,10 +5,10 @@
     <remote name="github" fetch="https://github.com" />
 
     <!-- DEVICE TREES -->
-    <project name="a52sxq/device_samsung_a52sxq" path="device/samsung/a52sxq" remote="github" revision="yaap" />
-    <project name="a52sxq/device_samsung_sm7325_common" path="device/samsung/sm7325-common" remote="github" revision="yaap" />
+    <project name="a52sxq/device_samsung_a52sxq" path="device/samsung/a52sxq" remote="github" revision="fifteen" />
+    <project name="a52sxq/device_samsung_sm7325_common" path="device/samsung/sm7325-common" remote="github" revision="fifteen" />
     <project name="a52sxq/vendor_samsung_a52sxq" path="vendor/samsung/a52sxq" remote="github" revision="fifteen" />
-    <project name="a52sxq/vendor_samsung_sm7325-common" path="vendor/samsung/sm7325-common" remote="github" revision="yaap" />
+    <project name="a52sxq/vendor_samsung_sm7325-common" path="vendor/samsung/sm7325-common" remote="github" revision="fifteen" />
 
     <!-- KERNEL -->
     <project name="a52sxq/android_kernel_samsung_sm7325" path="kernel/samsung/sm7325" remote="github" revision="fifteen" />
