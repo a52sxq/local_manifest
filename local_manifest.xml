@@ -14,7 +14,7 @@
     <project name="a52sxq/android_kernel_samsung_sm7325" path="kernel/samsung/sm7325" remote="github" revision="fifteen" />
 
     <!-- CUSTOM HARDWARE SAMSUNG -->
-    <project name="a52sxq/android_hardware_samsung" path="hardware/samsung" remote="github" revision="fifteen" />
+    <project name="a52sxq/android_hardware_samsung" path="hardware/samsung" remote="github" revision="clover" />
 
     <!-- KEYS -->
     <project name="LCyong-stuffs/keys" path="vendor/lineage/signing/keys" remote="github" revision="main" />
